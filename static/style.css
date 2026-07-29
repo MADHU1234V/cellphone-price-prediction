@@ -1,0 +1,200 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.container{
+    max-width:900px;
+}
+
+.prediction-card{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+
+}
+
+.prediction-card img{
+
+    margin-bottom:15px;
+
+}
+
+h1{
+
+    color:#2c3e50;
+
+    font-weight:700;
+
+}
+
+p{
+
+    color:#666;
+
+}
+
+label{
+
+    font-weight:600;
+
+    margin-bottom:6px;
+
+}
+
+.form-control,
+.form-select{
+
+    height:50px;
+
+    border-radius:10px;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    border-color:#667eea;
+
+    box-shadow:0 0 8px rgba(102,126,234,.4);
+
+}
+
+.btn{
+
+    padding:12px 30px;
+
+    border-radius:10px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    margin:8px;
+
+    transition:.3s;
+
+}
+
+.btn-primary{
+
+    background:#667eea;
+
+    border:none;
+
+}
+
+.btn-primary:hover{
+
+    background:#4d63d6;
+
+    transform:translateY(-2px);
+
+}
+
+.btn-secondary{
+
+    background:#6c757d;
+
+    border:none;
+
+}
+
+.btn-secondary:hover{
+
+    background:#565e64;
+
+    transform:translateY(-2px);
+
+}
+
+.alert{
+
+    border-radius:12px;
+
+    text-align:center;
+
+    font-size:22px;
+
+    font-weight:600;
+
+}
+
+.table{
+
+    margin-top:25px;
+
+}
+
+.table th{
+
+    width:45%;
+
+    background:#667eea;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+.table td{
+
+    text-align:center;
+
+}
+
+footer{
+
+    text-align:center;
+
+    margin-top:20px;
+
+    color:white;
+
+    font-size:15px;
+
+}
+
+@media(max-width:768px){
+
+    .prediction-card{
+
+        padding:20px;
+
+    }
+
+    h1{
+
+        font-size:28px;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+        margin-top:10px;
+
+    }
+
+}
